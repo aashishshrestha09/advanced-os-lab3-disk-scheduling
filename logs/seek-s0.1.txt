@@ -1,0 +1,22 @@
+OPTIONS seed 0
+OPTIONS addr 7,30,8
+OPTIONS addrDesc 5,-1,0
+OPTIONS seekSpeed 0.1
+OPTIONS rotateSpeed 1
+OPTIONS skew 0
+OPTIONS window -1
+OPTIONS policy FIFO
+OPTIONS compute True
+OPTIONS graphics False
+OPTIONS zoning 30,30,30
+OPTIONS lateAddr -1
+OPTIONS lateAddrDesc 0,-1,0
+
+REQUESTS [7, 30, 8]
+
+Block:   7  Seek:  0  Rotate: 15  Transfer: 30  Total:  45
+Block:  30  Seek:801  Rotate:219  Transfer: 30  Total:1050
+Block:   8  Seek:801  Rotate:309  Transfer: 30  Total:1140
+
+TOTALS      Seek:1602  Rotate:543  Transfer: 90  Total:2235
+
